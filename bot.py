@@ -1,5 +1,5 @@
-# COPYRIGHT © 2021-22 BY LEGENDX22 🔥
-# NOW PUBLIC BY LEGENDX
+# COPYRIGHT © 2021-22 BY COPYCAT 🔥
+# NOW PUBLIC BY COPYCAT
 import os
 os.system("pip install Telethon==1.21.1")
 from telethon import TelegramClient, events, functions, types
@@ -145,11 +145,11 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "TheXArmy"
+GROUP = "Copycat_Userbot"
 menu = '''
 
-**NOTICE JOIN @TheXArmy FEDERATION**
-FED ID `2936f6a8-cc1d-4f76-ac1f-ac752fe5caef`
+**NOTICE JOIN @Copycat_Userbot **
+Sub My Fed `1ddafab2-e656-4af9-83fa-43eec33eb5fd`
 
 
 A: [check user own groups and channels]
