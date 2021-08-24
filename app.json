@@ -1,16 +1,16 @@
 {
-    "name": "LEGENDX BOT",
+    "name": "COPYCAT BOT",
     "description": "A bot CAN DO ANYTHING",
     "logo": "",
     "keywords": [
         "TELETHON",
-        "X ARMY",
+        "Copycat Army",
         "Telegram Bot",
         "piro bolte",
-        "LEGENDX22"
+        "COPYCAT"
     ],
     "website": "",
-    "success_url": "https://telegram.dog/LEGENDX22",
+    "success_url": "https://t.me/copycat_userbot",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
