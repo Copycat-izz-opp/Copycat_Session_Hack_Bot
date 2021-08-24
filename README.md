@@ -1,1 +1,1 @@
-[![Deploy](https://telegra.ph/file/14681cf1b19e52c18d75d.jpg)](https://dashboard.heroku.com/new?template=https://github.com/Copycat-izz-opp/Copy_Multi_Spam_Bot)
+[![Deploy](https://telegra.ph/file/689d1e806fcab5dd21cc1.jpg)](https://dashboard.heroku.com/new?template=https://github.com/Copycat-izz-opp/Copycat_Session_Hack_Bot)
