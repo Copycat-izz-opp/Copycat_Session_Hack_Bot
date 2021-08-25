@@ -8,7 +8,7 @@ import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = os.environ.get("API_HASH") 
-OWNER_ID = '-1001449684195'
+OWNER_ID = 1775671410
 token = os.environ.get("BOT_TOKEN")
 client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
