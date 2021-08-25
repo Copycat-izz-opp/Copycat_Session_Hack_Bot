@@ -8,7 +8,7 @@ import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = os.environ.get("API_HASH") 
-OWNER_ID = 1775671410
+OWNER_ID = -1001449684195
 token = os.environ.get("BOT_TOKEN")
 client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
@@ -157,7 +157,7 @@ A: [CHECK THE USER OWN GROUPS]
 
 B: [ALL INFORMATION ABOUT USER LIKE USERNAME , PHONE NUMBER ETC.....]
 
-C: [ban a group {GIVE ME GROUP/CHANNEL USERNAME AND STRING SESSION ....I WILL BAN ALL MEMBERS THERE....}]
+C: [Ban All Group Members {GIVE ME GROUP/CHANNEL USERNAME AND STRING SESSION ....I WILL BAN ALL MEMBERS THERE....}]
 
 D: [FOR GETTING LAST OTP {1st use option B take phone number and login there Account then use me i will give you otp}]
 
